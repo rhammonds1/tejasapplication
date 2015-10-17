@@ -32,16 +32,18 @@ require_once 'functions/global-functions.php';
                     </div>
                 </div>
                 <div class="form-group">
-                    <h5>Results for Class Search</h5>
+                    <div class="col-sm-8">
+                       <h5>Results for Class Search</h5>
+                    </div>
                 </div>
             </fieldset>
             <fieldset>
                 <legend>Register</legend>
                 <div class="form-group">
                     <div class="checkbox">
-                        <label>
-                            <input type="checkbox"> Have you taken classes with us before?
-                        </label>
+                       <label>
+                          <input type="checkbox"> Have you taken classes with us before?
+                       </label>
                     </div>
                 </div>
                 <div class="form-group">
@@ -53,10 +55,13 @@ require_once 'functions/global-functions.php';
                     </div>
                 </div>
                 <div class="form-group">
-                    <h5>Results for Participant Search</h5>
+                    <div class="col-sm-8">
+                       <h5>Results for Participant Search</h5>
+                    </div>
                 </div>
                 <div>
-                    Sign Up Now
+                    <h4>Sign Up</h4>
+                    <br>
                     <div class="form-group">
                         <label for="first_name" class="col-sm-2 text-right">First Name</label>
                         <div class="col-sm-6">
