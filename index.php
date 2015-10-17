@@ -126,7 +126,7 @@ require_once 'functions/global-functions.php';
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="income" class="col-sm-2 text-right">Income</label>
+                        <label for="income" class="col-sm-2 text-right">Family Income</label>
                         <div class="col-sm-6">
                             <input type="text" class="form-control" id="income">
                         </div>
@@ -160,8 +160,10 @@ require_once 'functions/global-functions.php';
                     </div>
                 </div>
             </fieldset>
-            <div class="form-group col-sm-8">
-                <input type="submit" class="btn btn-success pull-right" value="Register">
+            <div class="form-group">
+                <div class="col-sm-8">
+                    <input type="submit" class="btn btn-success pull-right" value="Register">
+                </div>
             </div>
         </form>
     </div>
