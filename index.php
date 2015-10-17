@@ -165,7 +165,7 @@ require_once 'functions/global-functions.php';
             </div>
         </form>
     </div>
- 
+
     <?php include 'includes/footer.php'; ?>
 
 </body>
